@@ -538,6 +538,20 @@ p {
 		opacity: 1;
 	}
 }
+
+#vita{
+	background: $white;
+	min-height: 1200px;
+
+	.container{
+
+			img{
+				object-fit: contain;
+			}
+
+	}
+}
+
 #services {
 	background: $color_black_haze_approx;
 	position: relative;
