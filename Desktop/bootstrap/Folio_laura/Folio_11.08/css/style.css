@@ -55,7 +55,7 @@
       font-size: 16px;
       font-style: italic;
       /*margin: 20px 0 30px;*/
-      @include serif-font;
+    /*  @include serif-font;*/
     }
   .modal-content-w3  ul.list-inline {
       margin-top: 0;
@@ -1133,7 +1133,7 @@ About-Us
         -moz-transition: all ease 0.5s;
         transition: all ease 0.5s;
         opacity: 0;
-        background: fade-out($primary, .1);
+      /*  background: fade-out($primary, .1); */
       }
 
 #portfolio  &:hover {
@@ -1243,7 +1243,8 @@ About-Us
 .portfolio-modal  .modal-content  p.item-intro {
       font-size: 16px;
       font-style: italic;
-      /*margin: 20px 0 30px;*/
+      margin: 20px 0 30px;
+
       @include serif-font;
     }
   .modal-content  ul.list-inline {
