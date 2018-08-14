@@ -506,15 +506,15 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-thumbnail all 3d ui photography">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <a class="portfolio-link" data-toggle="modal" data-target="#portfolioModal3">
                 <img class="img-fluid" src="images/Lichtpult.jpg"  alt="img">
               </a>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-thumbnail all 3d photography">
-            <a class="popup-img" href="images/portfolio/4.jpg">
-              <!--  <img src="images/img_3068.jpg" alt="img"> -->
-              <p class="descr p-heading">Projects</p>
+            <a class="portfolio-link"   data-toggle="modal" data-target="#portfolioModal1">
+              <img src="images/img_3068.jpg" alt="img">
+
               </a>
           </div>
 
@@ -570,7 +570,12 @@
   </div>
 </div>
 
-
+<div class="container">
+  <div class="row">
+<iframe class="embed-responsive-item" style="height: 50%;" src="https://www.youtube.com/watch?v=er034Q2DOaM" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+</iframe>
+</div>
+</div>
 
 
 
@@ -760,7 +765,15 @@
 
 
 
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
 
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          ...
+        </div>
+      </div>
+    </div>
 
 
 
@@ -777,9 +790,6 @@
               <h2 class="mb-30">KONTAKT</h2>
 
               <ul class="contact-details">
-                <li><span>23 Main, Street</span></li>
-                <li><span>New York, United States</span></li>
-                <li><span>+88 01912704287</span></li>
                 <li><span>example@example.com</span></li>
               </ul>
 
